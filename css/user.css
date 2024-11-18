@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.nav {
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    /* padding-left: 100px; */
+    display: flex;
+    height: 90px;
+    /* background-color: blanchedalmond; */
+    box-shadow: 1px 1px 20px 10px rgba(185, 183, 182, 0.304);
+    background-color: rgb(241, 241, 241);
+
+}
+
+.other {
+    gap: 30px;
+}
+
+.other:hover {
+    color: rgb(247, 165, 13);
+    cursor: pointer;
+}
+
+span {
+    color: rgb(247, 165, 13);
+}
+
+#ss {
+    /* display: flex; */
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+ul {
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    align-items: center;
+    gap: 50px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    margin-left: 300px;
+
+}
+
+a,
+li {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+li,
+a:hover {
+    color: rgb(244, 94, 1);
+    cursor: pointer;
+}
+
+.logo {
+    height: 75px;
+    padding-left: 150px;
+    z-index: 1;
+}
+
+.logo:hover {
+    height: 80px;
+}
+
+#form {
+    margin-top: 10px;
+    margin-left: 500px;
+    justify-items: center;
+    background-color: rgba(159, 148, 144, 0.377);
+    height: 300px;
+    width: 30%;
+    padding-top: 100px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    backdrop-filter: blur(10px);
+    border: 1px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#phn {
+    padding-left: 10px;
+    margin-top: 20px;
+    height: 30px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+
+#formbtn {
+    color:orange;
+    height: 30px;
+    width: 300px;
+    margin-left: 2px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+}
+
+#shp1{
+    position: relative;
+    height: 180px;
+    border-radius: 50%;
+    top:120px;
+    left:420px;
+    z-index: -1;
+}
+#shp2{
+    position: relative;
+    height: 180px;
+    border-radius: 50%;
+    top:-100px;
+    left:850px;
+    z-index: -1;
+}
+

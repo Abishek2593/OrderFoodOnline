@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    
+}
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+.nav {
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    /* padding-left: 100px; */
+    display: flex;
+    height: 90px;
+    /* background-color: blanchedalmond; */
+    box-shadow: 1px 1px 20px  10px rgba(185, 183, 182, 0.304);
+    background-color: rgb(241, 241, 241);
+    color:black;
+
+}
+.other{
+    gap:30px;
+}
+
+.other:hover {
+    color: rgb(247, 165, 13);
+    cursor: pointer;
+}
+span{
+    color:rgb(247, 165, 13);
+}
+
+#ss{
+    /* display: flex; */
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+ul {
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    align-items: center;
+    gap: 50px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    margin-left: 300px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+li:hover {
+    color: rgb(244, 94, 1);
+    cursor: pointer;
+}
+
+.logo {
+    height: 75px;
+    padding-left: 150px;
+    z-index: 1;
+}
+
+.logo:hover {
+    height: 80px;
+}
+
+#fh{
+    margin:125px 0px 0px 180px;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    font-weight: bold;
+}
+#lihead{
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    display:flex ;
+    gap: 10px;
+   
+}
+
+img{
+    /* width:90px; */
+    height: 80px;
+    
+}
+.img1{
+    width:90px;
+    height: 80px;
+    
+}
+
+
+
+#list1{
+    
+    display: flex;
+    margin:20px 0px 0px 180px;
+    gap:40px;
+}
+
+.listmenu1{
+    margin-top: 30px;
+    text-align: center;
+    color:rgb(121, 115, 115);
+    font-size: 10px;
+}
+
+hr{
+    margin-top: 100px;
+    width:80%;
+    margin-left: 10%;
+}
+
+#sh{
+    margin:50px 0px 0px 180px; 
+}
+.list2{
+    display: flex;
+    gap: 30px;
+    margin-top:20px ;
+    margin-left: 180px;
+}
+
+/* .list2:hover{
+    margin-top: 15px;
+} */
+.resdelimg{
+    margin-bottom: 15px;
+    height:200px;
+    border-radius: 20px;
+}
+.resdelimg:hover{
+    margin-bottom: 15px;
+    height:220px;
+    box-shadow: 1px 1px 5px 1px;
+}
+
+.resdet{
+    font-size: 20px;
+    color:black;
+}
+
+.green{
+    color:green;
+}
+.resdet1{
+    color:rgb(121, 115, 115);
+    font-size: 20px;
+}
+#btn{
+    display: flex;
+    margin-left: 158px;
+}
+.btnstyle{
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    height:30px;
+    width: 150px;
+    border-radius: 50px;
+    align-content: center;
+    justify-items: center;
+    border: 1px solid rgb(152, 152, 152);
+    color:rgb(1, 1, 1);
+    font-size: 10px;
+}
+
+.btnstyle:hover{
+    background-color:  rgb(244, 94, 1);
+}
+
+
+
+
